@@ -12,7 +12,7 @@ import lenovo from "../../public/img/Lenovo.png";
 import xbox from "../../public/img/Xbox.png";
 import huawei from "../../public/img/Huawei.png";
 import asus from "../../public/img/Asus.png";
-import hisense from "../../public/img/Hisense.png";
+import hisense from "../../public/icons/hisense.png";
 import sony from "../../public/img/Sony_Log.png";
 
 const MarcasSection = () => {
