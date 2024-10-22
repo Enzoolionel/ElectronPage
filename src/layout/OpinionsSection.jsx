@@ -1,4 +1,4 @@
-import OpinionCard from "../components/OpinionCard";
+import OpinionCard from "../components/OpinionCard.jsx";
 
 const OpinionsSection = () => {
   return (

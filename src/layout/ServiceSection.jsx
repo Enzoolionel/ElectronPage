@@ -1,4 +1,4 @@
-import Card from "../components/Card";
+import Card from "../components/Card.jsx";
 import store from "../../public/icons/store.svg";
 import house from "../../public/icons/house.svg";
 import truck from "../../public/icons/truck.svg";

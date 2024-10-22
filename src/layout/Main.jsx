@@ -1,4 +1,4 @@
-import BtnCotizar from "../components/BtnCotizar";
+import BtnCotizar from "../components/BtnCotizar.jsx";
 import iconLi from "../../public/icons/circle-check-solid.svg";
 
 const classItem = {

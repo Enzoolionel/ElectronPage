@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Nav from "../components/Nav";
+import Nav from "../components/Nav.jsx";
 
 // import electronIcon from "../../public/icons/electron.svg";
 

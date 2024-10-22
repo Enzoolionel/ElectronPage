@@ -1,19 +1,19 @@
 import { motion } from "framer-motion";
 
-import Marca from "../components/Marca";
+import Marca from "../components/Marca.jsx";
 import apple from "../../public/img/apple.png";
 import hp from "../../public/img/HP.png";
 import lg from "../../public/img/LG.png";
-import motorola from "../../public/img/motorola.png";
-import philips from "../../public/img/philips.png";
-import nintendo from "../../public/img/nintendo.png";
-import samsung from "../../public/img/samsung.png";
-import lenovo from "../../public/img/lenovo.png";
-import xbox from "../../public/img/xbox.png";
-import huawei from "../../public/img/huawei.png";
-import asus from "../../public/img/asus.png";
-import hisense from "../../public/img/hisense.png";
-import sony from "../../public/img/sony_log.png";
+import motorola from "../../public/img/Motorola.png";
+import philips from "../../public/img/Philips.png";
+import nintendo from "../../public/img/Nintendo.png";
+import samsung from "../../public/img/Samsung.png";
+import lenovo from "../../public/img/Lenovo.png";
+import xbox from "../../public/img/Xbox.png";
+import huawei from "../../public/img/Huawei.png";
+import asus from "../../public/img/Asus.png";
+import hisense from "../../public/img/Hisense.png";
+import sony from "../../public/img/Sony_Log.png";
 
 const MarcasSection = () => {
   return (
