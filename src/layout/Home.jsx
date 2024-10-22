@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import MainSection from "./main.jsx";
+import MainSection from "./Main.jsx";
 import ServiceSection from "./ServiceSection.jsx";
 import NavBar from "./NavBar.jsx";
 import MarcasSection from "./MarcasSection.jsx";
