@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import secureIcon from "../../public/img/secure.png";
-import afipIcon from "../../public/img/dataweb.jpg";
+import afipIcon from "../../public/img/DATAWEB.jpg";
 import house from "../../public/icons/house.svg";
 const Footer = () => {
   return (
