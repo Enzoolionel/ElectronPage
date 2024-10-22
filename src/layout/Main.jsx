@@ -9,7 +9,7 @@ const classItem = {
 const MainSection = () => {
   return (
     <section className=" border-t-2 border-gray-200 relative top-20">
-      <article className="py-10 w-screen h-72 flex flex-col gap-12 bg-[url('public/img/fondoMain.jpg')] bg-center bg-cover ">
+      <article className="fondo py-10 w-screen h-72 flex flex-col gap-12 bg-center bg-cover ">
         <div className="w-screen p-5 h-44 bg-white bg-opacity-80 rounded-md">
           <h2 className="text-3xl font-bold">
             Reparacion de Electrodomesticos
