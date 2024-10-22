@@ -12,7 +12,7 @@ import lenovo from "../../public/img/Lenovo.png";
 import xbox from "../../public/img/Xbox.png";
 import huawei from "../../public/img/Huawei.png";
 import asus from "../../public/img/Asus.png";
-import hisense from "../../public/icons/hisense.png";
+import Hisense from "../../public/icons/Hisense.png";
 import sony from "../../public/img/Sony_Log.png";
 
 const MarcasSection = () => {
@@ -36,7 +36,7 @@ const MarcasSection = () => {
         <Marca src={nintendo} />
         <Marca src={lenovo} />
         <Marca src={xbox} />
-        <Marca src={hisense} />
+        <Marca src={Hisense} />
         <Marca src={huawei} />
         <Marca src={asus} />
         <Marca src={sony} />
