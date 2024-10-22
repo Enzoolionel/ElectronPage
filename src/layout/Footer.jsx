@@ -29,7 +29,7 @@ const Footer = () => {
         la compra vía internet. La venta de cualquier producto o servicio
         publicado está sujeta a la verificación de stock y/o disponibilidad.
       </p>
-      <h3 className="relative top-10 left-[76px]  text-sm">
+      <h3 className="w-full relative top-10 text-end text-sm">
         🦆Desarrollado por <span className="hover:underline">_EnzooLionel</span>
       </h3>
     </footer>
