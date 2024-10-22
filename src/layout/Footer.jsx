@@ -20,16 +20,16 @@ const Footer = () => {
         <Link className="text-xs font-bold underline">Privacidad</Link>
       </div>
       <p className="text-xs text-center">
-        Todos los derechos reservados Electrosafe. CUIT: 20-38930937-1 Buenos
-        Aires | Argentina.
+        Todos los derechos reservados Electron. CUIT: 20-00000000-1 Buenos Aires
+        | Argentina.
       </p>
       <p className="text-xs text-center">
         Los precios online y los planes de financiación para los productos
-        presentados/publicados en electrosafeweb.com son válidos exclusivamente
-        para la compra vía internet. La venta de cualquier producto o servicio
+        presentados/publicados en Electron.com son válidos exclusivamente para
+        la compra vía internet. La venta de cualquier producto o servicio
         publicado está sujeta a la verificación de stock y/o disponibilidad.
       </p>
-      <h3 className="relative top-10 left-[72px]  text-sm">
+      <h3 className="relative top-10 left-[76px]  text-sm">
         🦆Desarrollado por <span className="hover:underline">_EnzooLionel</span>
       </h3>
     </footer>
