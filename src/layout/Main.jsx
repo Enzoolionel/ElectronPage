@@ -17,31 +17,31 @@ const MainSection = () => {
           <h3 className="text-2xl">Electrónica en línea blanca</h3>
           <h4 className="text-gray-600">¿Se rompio tu equipo?</h4>
         </div>
-        <BtnCotizar className="m-auto flex px-28 rounded-full" />
+        <BtnCotizar className="m-auto flex px-28 sm:relative sm:top-10 rounded-full" />
       </article>
-      <ul className="bg-slate-50 rounded-md w-[90%] m-auto grid grid-cols-2 place-items-center p-6 mt-5">
-        <li className="flex items-center gap-1">
+      <ul className="bg-slate-50 rounded-md sm:w-[90%] m-auto flex flex-wrap gap-5 justify-evenly p-6 mt-5">
+        <li className="w-40 flex items-center justify-center gap-2">
           <img src={iconLi} className="h-6" alt="icono" />
           <div>
             <p className={classItem.p}>Envios en</p>
             <h3 className={classItem.h3}>Todo el país</h3>
           </div>
         </li>
-        <li className="flex items-center gap-1">
+        <li className="w-40 flex items-center justify-center gap-2">
           <img src={iconLi} className="h-6" alt="icono" />
           <div>
             <p className={classItem.p}>Cuotas</p>
             <h3 className={classItem.h3}>Sin interés</h3>
           </div>
         </li>
-        <li className="flex items-center gap-1">
+        <li className="w-40 flex items-center justify-center gap-2">
           <img src={iconLi} className="h-6" alt="icono" />
           <div>
             <p className={classItem.p}>Garantia</p>
             <h3 className={classItem.h3}>Por 90 días</h3>
           </div>
         </li>
-        <li className="flex items-center gap-1">
+        <li className="w-40 flex items-center justify-center gap-2">
           <img src={iconLi} className="h-6" alt="icono" />
           <div>
             <p className={classItem.p}>Diagnostico</p>

@@ -5,13 +5,13 @@ import house from "../../public/icons/house.svg";
 const Footer = () => {
   return (
     <footer className="flex flex-col gap-4 items-center bg-gray-700 text-slate-200 p-10">
-      <img className="h20 w-20 " src={house} alt="#" />
+      <img className="h20 w-20" src={house} alt="#" />
       <div className="flex gap-2">
         <img className="h-7 w-5 bg-cover" src={afipIcon} alt="#" />
         <img className="h-8 w-8 bg-cover" src={secureIcon} alt="#" />
       </div>
       <div className="flex w-screen justify-center items-center gap-1">
-        <p className="text-xs font-bold">©️ 2024</p>
+        <p className="text-xs font-bold">© 2024</p>
         <p>|</p>
         <Link className="text-xs font-bold underline">
           Términos y Condiciones
@@ -29,9 +29,10 @@ const Footer = () => {
         la compra vía internet. La venta de cualquier producto o servicio
         publicado está sujeta a la verificación de stock y/o disponibilidad.
       </p>
-      <h3 className="w-full relative top-10 text-end text-sm">
-        🦆Desarrollado por <span className="hover:underline">_EnzooLionel</span>
-      </h3>
+      <p className="relative top-8">
+        By:
+        <a href="https://enzoolionel.vercel.app"> _EnzooLionel ✅</a>
+      </p>
     </footer>
   );
 };

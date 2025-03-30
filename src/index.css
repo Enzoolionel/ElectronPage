@@ -8,3 +8,11 @@ html {
 .fondo {
   background-image: url(../public/img/fondoMain.jpg);
 }
+html {
+  overflow: scroll;
+  scrollbar-width: none; /* Para Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Para Chrome, Safari y Edge */
+}
