@@ -10,7 +10,7 @@ const OpinionsSection = () => {
         Guido 1068 B1878, Quilmes, Provincia de Buenos Aires
       </h2>
       <h3 className="mb-14">4.7 ⭐⭐⭐⭐⭐ 2115 opiniones</h3>
-      <div className="w-[80%] flex flex-wrap flex-col sm:flex-row gap-10">
+      <div className="sm:w-[80%]  flex flex-wrap flex-col sm:flex-row gap-10">
         <OpinionCard
           src={""}
           alt={""}
