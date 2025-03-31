@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-import { Wrench, Users, Phone } from "lucide-react";
+import { Wrench, Users, Phone, Home } from "lucide-react";
 
 const Nav = ({ isActive }) => {
   return (
@@ -12,7 +12,13 @@ const Nav = ({ isActive }) => {
       <button className={`px-20 py-3 bg-orange-500 text-zinc-100 rounded-xl`}>
         Cotizar ahora!
       </button>
-      <ul className="shadow-custom h-44 w-full flex flex-col p-2 justify-center gap-4">
+      <ul className="shadow-custom h-60 w-full flex flex-col p-2 justify-center gap-4">
+        <Link
+          className="font-bold text-lg border-b-2 ml-3 pb-1 hover:text-[#003e4f] transition flex items-center gap-2"
+          to="/"
+        >
+          <Home size={20} /> Inicio
+        </Link>{" "}
         <Link
           className="font-bold text-lg border-b-2 ml-3 pb-1 hover:text-[#003e4f] transition flex items-center gap-2"
           to="/servicios"

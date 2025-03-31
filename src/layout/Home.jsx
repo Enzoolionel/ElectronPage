@@ -9,7 +9,11 @@ import Footer from "./Footer.jsx";
 
 const Home = () => {
   return (
-    <motion.main initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+    <motion.main
+      className="xl:flex xl:flex-col items-center"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+    >
       <NavBar />
       <MainSection />
       <ServiceSection />

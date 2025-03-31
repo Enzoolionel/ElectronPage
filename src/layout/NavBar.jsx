@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Wrench, Users, Phone } from "lucide-react"; // Iconos modernos
+import { Menu, X, Wrench, Users, Phone, Home } from "lucide-react"; // Iconos modernos
 import Nav from "../components/Nav.jsx";
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed flex sm:px-8 w-full bg-slate-50 text-slate-800 shadow-md z-20">
+    <nav className="xl:max-w-[80%] fixed flex sm:px-8 w-full bg-slate-50 text-slate-800 shadow-md z-20">
       <div className="container mx-auto flex justify-between items-center p-4">
         <h2 className="text-2xl font-bold tracking-wide">Electron</h2>
 
@@ -32,8 +32,13 @@ const NavBar = () => {
       </div>
 
       {/* Iconos fuera del nav, visibles en tamaños lg y mayores */}
-      <div className="hidden md:flex items-center justify-center gap-4">
-        {" "}
+      <div className="hidden md:flex items-center justify-center gap-3">
+        <Link
+          className="font-bold text-sm ml-3 pb-1 hover:text-[#003e4f] transition flex items-center gap-2"
+          to="/"
+        >
+          <Home size={20} /> Inicio
+        </Link>{" "}
         <Link
           className="font-bold text-sm ml-3 pb-1 hover:text-[#003e4f] transition flex items-center gap-2"
           to="/servicios"

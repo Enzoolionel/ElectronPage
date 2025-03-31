@@ -10,8 +10,9 @@ const OpinionCard = ({ alt, title, time, coment }) => {
       />
       <h1 className="font-bold text-blue-900">{title}</h1>
       <div className="flex items-center">
-        <h3>⭐⭐⭐⭐⭐</h3>
-        <p className="text-xs text-gray-500">{time}</p>
+        <h3>
+          ⭐⭐⭐⭐⭐ <span className="text-xs text-gray-500">{time}</span>
+        </h3>
       </div>
       <p className="text-center text-slate-700">{coment}</p>
     </article>

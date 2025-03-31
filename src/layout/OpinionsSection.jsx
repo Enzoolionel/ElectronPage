@@ -2,7 +2,7 @@ import OpinionCard from "../components/OpinionCard.jsx";
 
 const OpinionsSection = () => {
   return (
-    <section className="flex flex-col bg-slate-50 mt-10 p-10 items-center">
+    <section className="xl:max-w-[80%] flex flex-col bg-slate-50 mt-10 p-10 items-center">
       <h1 className="text-3xl text-center mb-5">
         Opiniones de nuestros clientes
       </h1>
